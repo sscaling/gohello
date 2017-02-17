@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+ "fmt"
+ "github.com/sscaling/gostringutil"
+)
 
 func main() {
-	fmt.Printf("Hello, world.\n")
+	fmt.Printf(gostringutil.Reverse("Hello, world.\n"))
 }
 
